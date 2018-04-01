@@ -1,7 +1,7 @@
 # NIH_ChestXRay
 This repo contains codes to convert NIHChestXRay png images to numpy for easier computation
 
-# Acknowledgements 
+## Acknowledgements 
 
 <i><b>(From Kaggle)</b> This work was supported by the Intramural Research Program of the NClinical Center (clinicalcenter.nih.gov) and National Library of Medicine (www.nlm.nih.gov).</i>
 
