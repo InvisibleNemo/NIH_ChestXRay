@@ -23,7 +23,7 @@ The following datasets are used in the programs which converted them into NumPy 
 3. NIH Box:     https://nihcc.app.box.com/v/ChestXray-NIHCC/folder/36938765345
 
 ### Converted Data
-1.  Sample Data (NumPy Format):  https://buffalo.app.box.com/s/5qdzwn881ew5bj21kudaw05f6lgibkvn   ~5.5 GB
+1.  Sample Data (NumPy Format): <a href=" https://buffalo.app.box.com/s/5qdzwn881ew5bj21kudaw05f6lgibkvn">Box</a>   ~5.5 GB
     <br>The above dataset is stored in tar split tar archives and should be combined to get the <b>npy</b> file. 
     To combine all the parts, download the 113 parts and run the following command:
     
@@ -35,3 +35,6 @@ The following datasets are used in the programs which converted them into NumPy 
     ``` bash
     $tar -xvf nih_chest_xray_sample.tar.gz
     ```
+
+### Converted Labels
+The chest X-ray images portray a probabilistic set of labels for the images. So there is no single label associated with each X-ray image. To circumvent this training issue in algorithms one hot encoding is used. The <a href="https://github.com/InvisibleNemo/NIH_ChestXRay/tree/master/files/labels.csv">labels.csv</a> file is converted using the <a href="https://github.com/InvisibleNemo/NIH_ChestXRay/tree/master/codes/one_hot_label.py">one_hot_labels.py</a> code.
