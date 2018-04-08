@@ -23,7 +23,7 @@ The following datasets are used in the programs which converted them into NumPy 
 3. NIH Box:     https://nihcc.app.box.com/v/ChestXray-NIHCC/folder/36938765345
 
 ### Converted Data
-1.  Sample Data (NumPy Format): <a href=" https://buffalo.app.box.com/s/5qdzwn881ew5bj21kudaw05f6lgibkvn">Box</a>   ~5.5 GB
+1.  Sample Data (NumPy Format): <a href="https://buffalo.app.box.com/s/5qdzwn881ew5bj21kudaw05f6lgibkvn">Box</a>   ~5.5 GB
     <br>The above dataset is stored in tar split tar archives and should be combined to get the <b>npy</b> file. 
     To combine all the parts, download the 113 parts and run the following command:
     
